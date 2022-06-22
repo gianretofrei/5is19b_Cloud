@@ -1,3 +1,2 @@
 #!/bin/bash
-sudo apt install -y boinc-client
-boinccmd --host localhost --project_attach 
+sudo apt-get install boinc-client
