@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # BOINC installation
+sudo apt-get update
 sudo apt install aptitude
 # Aptitude installation
 cd ~
