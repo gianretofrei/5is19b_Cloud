@@ -1,3 +1,3 @@
 #!/bin/bash
 cd ~
-sudo apt-get install boinc-client
+sudo apt --assume-yes install boinc-client
