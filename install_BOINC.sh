@@ -1,12 +1,12 @@
 #!/bin/bash
 
-# BOINC installation
+# Aptitude installation
 sudo apt-get update
 sudo apt install aptitude
-# Aptitude installation
+
+# BOINC installation
 cd ~
-sudo aptitude install boinc-client
-Y
+sudo apt install -y boinc-client
 cd
 /etc/init.d/boinc-client start
 
